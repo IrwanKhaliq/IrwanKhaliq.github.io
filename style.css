@@ -1,0 +1,187 @@
+
+body{
+    background-image: url("hack2.jpg");
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+    margin: 0 0;
+    padding: 0 0;
+    z-index: 1;
+}
+h1{
+    color: white;
+    font-size: 80px;
+}
+p{
+    color: white;
+    font-family: 'Baskervville', serif;
+}
+
+h1,p{
+    margin: 0 auto;
+}
+header{
+    background-color: #FE8D00;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 0;
+    display: inline;
+    text-align: right;
+    
+}
+nav{
+    position: relative;
+    padding: 1% 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    height: 1000px;
+}
+
+#act{
+    color: white;
+    padding: 100px 0px;
+    margin: 0 2%;
+}
+
+#photo-text{
+    position: absolute;
+    left: 20px;
+    margin-top: 20px;
+}
+
+#photo-text2{
+    position: absolute;
+    left: 20px;
+}
+
+#photo-text3{
+    position: absolute;
+    margin: 10px;
+    left: 20px;
+}
+
+#feedback{
+    margin-left: 16%;
+    margin-top: 10%;
+    border: none;
+}
+
+#box{
+    background-color:  rgba(999, 999, 999, 0.4);
+    width: 80px;
+    height: 80px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.5s ease-in;
+}
+#box:hover{
+    background-color: whitesmoke;
+    transition: all 0.5s ease-out;
+}
+#box2{
+    background-color:  rgba(999, 999, 999, 0.4);
+    width: 80px;
+    height: 80px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.5s ease-in;
+    margin: 3% 47%;
+}
+#box2:hover{
+    color: red;
+    background-color: whitesmoke;
+    transition: all 0.5s ease-out;
+}
+
+.p{
+    width: 390px;
+}
+.hacktiv8{
+    width: 30px;
+}
+.di{
+    background-color: black;
+
+}
+
+footer{
+    color: white;
+    display: flex;
+    padding: 0 30%;
+    margin-bottom: 0 ;
+}
+
+ul a{
+    text-decoration: none;
+    margin: 0 10%;
+    color: white;
+}
+
+nav ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0 10%;
+    position: relative;
+    right: 0;
+}
+
+.bgp{
+    background-color: #FE8D00;
+    
+}
+.hacktiv8{
+    display: inline;
+    justify-content: space-between;
+}
+
+.hack2{
+    width: 100%;
+}
+
+.par{
+    padding-top: 5%;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 800px;
+}
+
+h3{
+    font-size: 40px;
+}
+.par h3, p{
+    color: white;
+    text-align: center;
+}
+#contact{
+    background-color: rgba(000, 000, 000, 1);
+    justify-content: space-between;
+}
+
+h1{
+    margin: 20% 0;
+}
+
+.h1p{
+    background-color: rgba(000, 000, 000, 0.4);
+    margin: 10% 20%;
+}
+
+.iframe{
+    width: 720px;
+    margin: 3% 30%;
+}
